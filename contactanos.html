@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contáctanos | Centro Noticias Huila</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="site-nav">
+<a href="index.html">Inicio</a><a href="noticias.html">Noticias</a><a href="anuncios.html">Anuncios</a><a href="empleos.html">Empleos</a><a href="clasificados.html">Clasificados</a>
+</nav>
+<section class="hero inner-hero">
+<div class="parallax-container">
+<img src="imágenes/Mesa de trabajo 4.png" class="mesa de trabajo 4" data-speed="0.10" alt="">
+<img src="imágenes/Mesa de trabajo 5.png" class="mesa de trabajo 5" data-speed="0.16" alt="">
+<img src="imágenes/Mesa de trabajo 6.png" class="mesa de trabajo 6" data-speed="0.23" alt="">
+<img src="imágenes/Mesa de trabajo 2.png" class="mesa de trabajo 2" data-speed="0.30" alt="">
+<img src="imágenes/Mesa de trabajo 1.png" class="mesa de trabajo 1" data-speed="0.36" alt="">
+<img src="imágenes/Mesa de trabajo 3.png" class="mesa de trabajo 3" data-speed="0.42" alt="Centro Noticias Huila">
+</div>
+<div class="hero-content"><p class="small-title">CENTRO NOTICIAS HUILA</p><h1>Contáctanos</h1><p class="description">¿Tienes una noticia, anuncio, oferta o propuesta? Escríbenos.</p><a href="#formulario" class="main-button">Escribir mensaje</a></div>
+</section>
+<section class="inner-section" id="formulario"><div class="inner-container">
+<div class="inner-header"><p class="section-label">COMUNICACIÓN</p><h2>Envíanos un mensaje</h2><p>Este formulario queda listo para conectarlo posteriormente con correo o un servicio de recepción de mensajes.</p></div>
+<form class="contact-form" onsubmit="event.preventDefault(); alert('Formulario preparado. Conéctalo a tu correo o backend para recibir los mensajes.');">
+<label for="nombre">Nombre</label><input id="nombre" type="text" placeholder="Tu nombre" required>
+<label for="correo">Correo electrónico</label><input id="correo" type="email" placeholder="tu@correo.com" required>
+<label for="tipo">Tipo de mensaje</label><select id="tipo"><option>Noticia</option><option>Anuncio</option><option>Oferta de trabajo</option><option>Clasificado</option><option>Otro</option></select>
+<label for="mensaje">Mensaje</label><textarea id="mensaje" placeholder="Escribe tu mensaje..." required></textarea>
+<button class="main-button" type="submit">Enviar mensaje</button>
+</form></div></section>
+<footer><img src="imágenes/Mesa de trabajo 3.png" alt="Centro Noticias Huila"><p>© 2026 Centro Noticias Huila</p><p>Información local para nuestra comunidad.</p><div class="footer-links"><a href="index.html">Inicio</a><a href="contactanos.html">Contáctanos</a><a href="nosotros.html">Nosotros</a></div></footer>
+<script src="script.js"></script>
+</body></html>
